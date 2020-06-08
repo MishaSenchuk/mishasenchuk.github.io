@@ -1,0 +1,101 @@
+#hero {
+  padding-top: 40px;
+  background: url("../img/bgHero.png");
+  font-size: 29px;
+  color: #fff;
+  position: relative;
+  padding-bottom: 133px;
+}
+
+#hero span {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+#hero button {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #b90016;
+  font-weight: bold;
+  padding: 10px 15px;
+  background: linear-gradient(
+    to top,
+    rgba(226, 226, 226, 1) 0%,
+    rgba(219, 219, 219, 1) 50%,
+    rgba(209, 209, 209, 1) 51%,
+    rgba(254, 254, 254, 1) 100%
+  );
+  border-radius: 8px;
+  border: none;
+}
+
+#hero img {
+  display: none;
+}
+
+#description {
+  padding: 35px 0;
+}
+
+#description .descriptionItem {
+  width: 265px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+#description .descriptionItem img {
+  margin-right: 3px;
+}
+
+#aboutUs {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#aboutUs .about {
+  width: 265px;
+  margin-bottom: 15px;
+}
+
+#aboutUs .about h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+#aboutUs .about img {
+  margin-bottom: 20px;
+}
+
+#aboutUs .about p {
+  margin-bottom: 20px;
+}
+
+#aboutUs .about button {
+  font-weight: bold;
+  padding: 0.2em 0.8em;
+  text-transform: uppercase;
+  color: #6c6c6c;
+  font-size: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+}
+
+#aboutUs .about ul li {
+  list-style: none;
+  padding: 5px 0;
+  border-bottom: 1px dotted black;
+}
+
+@media screen and (min-width: 900px) {
+  #hero img {
+    display: block;
+    position: absolute;
+    left: 50%;
+  }
+}

@@ -1,0 +1,82 @@
+#contact .banner {
+  background: url("../img/bg-portfolio.jpg");
+  background-size: cover;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+#contact .banner h2 {
+  font-size: 25px;
+}
+
+#contact .banner i {
+  font-size: 20px;
+}
+
+#contact form label,
+textarea {
+  color: #606060;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+#contact form input,
+textarea {
+  border-radius: 3px;
+  margin-bottom: 12px;
+  border: 1px solid #c9c9c9;
+  padding: 10px 0;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    #efefef 0%,
+    #f0f0f0 36%,
+    #f0f0f0 53%,
+    #fdfdfd 100%
+  );
+}
+
+#contact input[type="submit"] {
+  font-weight: bold;
+  color: #a9a9a9;
+}
+
+#contact .infoContainer {
+  padding-left: 22px;
+}
+
+#contact .infoItem h2 {
+  background: linear-gradient(
+    to right,
+    rgba(209, 209, 209, 1) 0%,
+    rgba(254, 254, 254, 0) 100%
+  );
+  color: #000;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+#contact .infoItem span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+#contact .infoItem a {
+  display: inline;
+}
+
+@media screen and (min-width: 900px) {
+  #contact form {
+    width: 385px;
+  }
+
+  #contact form input[type="submit"] {
+    width: 100px;
+    padding: 5px 0;
+  }
+}
